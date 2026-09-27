@@ -44,15 +44,15 @@ for store in data["body"]["stores"]:
 
 print()
 
-#if not available_stores:
-#    print("No availability found.")
-#    exit(0)
-
 if not available_stores:
     print("No availability found.")
+    exit(0)
 
-    # TEMPORARY TELEGRAM TEST
-    available_stores = ["TEST STORE — Waterloo, ON"]
+#if not available_stores:
+#    print("No availability found.")
+#
+#    # TEMPORARY TELEGRAM TEST
+#    available_stores = ["TEST STORE — Waterloo, ON"]
 
 print("🚨 iPhone AVAILABLE!")
 
